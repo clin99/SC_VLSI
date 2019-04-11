@@ -1,0 +1,273 @@
+create_clock -period 100 -name x1012 [get_ports x1012]
+set_input_delay -19 -min -rise [get_ports x884] -clock x1012 
+set_input_delay -37 -min -fall [get_ports x884] -clock x1012 
+set_input_delay -196 -max -rise [get_ports x884] -clock x1012 
+set_input_delay 9 -max -fall [get_ports x884] -clock x1012 
+set_input_transition 5 -min -rise [get_ports x884] -clock x1012
+set_input_transition 5 -min -fall [get_ports x884] -clock x1012
+set_input_transition 5 -max -rise [get_ports x884] -clock x1012
+set_input_transition 5 -max -fall [get_ports x884] -clock x1012
+set_input_delay -239 -min -rise [get_ports x825] -clock x1012 
+set_input_delay 121 -min -fall [get_ports x825] -clock x1012 
+set_input_delay 107 -max -rise [get_ports x825] -clock x1012 
+set_input_delay -145 -max -fall [get_ports x825] -clock x1012 
+set_input_transition 5 -min -rise [get_ports x825] -clock x1012
+set_input_transition 5 -min -fall [get_ports x825] -clock x1012
+set_input_transition 5 -max -rise [get_ports x825] -clock x1012
+set_input_transition 5 -max -fall [get_ports x825] -clock x1012
+set_input_delay -211 -min -rise [get_ports x717] -clock x1012 
+set_input_delay 125 -min -fall [get_ports x717] -clock x1012 
+set_input_delay -197 -max -rise [get_ports x717] -clock x1012 
+set_input_delay -36 -max -fall [get_ports x717] -clock x1012 
+set_input_transition 5 -min -rise [get_ports x717] -clock x1012
+set_input_transition 5 -min -fall [get_ports x717] -clock x1012
+set_input_transition 5 -max -rise [get_ports x717] -clock x1012
+set_input_transition 5 -max -fall [get_ports x717] -clock x1012
+set_input_delay 192 -min -rise [get_ports x1023] -clock x1012 
+set_input_delay -168 -min -fall [get_ports x1023] -clock x1012 
+set_input_delay 42 -max -rise [get_ports x1023] -clock x1012 
+set_input_delay -42 -max -fall [get_ports x1023] -clock x1012 
+set_input_transition 5 -min -rise [get_ports x1023] -clock x1012
+set_input_transition 5 -min -fall [get_ports x1023] -clock x1012
+set_input_transition 5 -max -rise [get_ports x1023] -clock x1012
+set_input_transition 5 -max -fall [get_ports x1023] -clock x1012
+set_input_delay 84 -min -rise [get_ports x916] -clock x1012 
+set_input_delay 164 -min -fall [get_ports x916] -clock x1012 
+set_input_delay 193 -max -rise [get_ports x916] -clock x1012 
+set_input_delay 222 -max -fall [get_ports x916] -clock x1012 
+set_input_transition 5 -min -rise [get_ports x916] -clock x1012
+set_input_transition 5 -min -fall [get_ports x916] -clock x1012
+set_input_transition 5 -max -rise [get_ports x916] -clock x1012
+set_input_transition 5 -max -fall [get_ports x916] -clock x1012
+set_input_delay 47 -min -rise [get_ports x964] -clock x1012 
+set_input_delay -84 -min -fall [get_ports x964] -clock x1012 
+set_input_delay -42 -max -rise [get_ports x964] -clock x1012 
+set_input_delay -130 -max -fall [get_ports x964] -clock x1012 
+set_input_transition 5 -min -rise [get_ports x964] -clock x1012
+set_input_transition 5 -min -fall [get_ports x964] -clock x1012
+set_input_transition 5 -max -rise [get_ports x964] -clock x1012
+set_input_transition 5 -max -fall [get_ports x964] -clock x1012
+set_input_delay 30 -min -rise [get_ports x1012] -clock x1012 
+set_input_delay 26 -min -fall [get_ports x1012] -clock x1012 
+set_input_delay 97 -max -rise [get_ports x1012] -clock x1012 
+set_input_delay 36 -max -fall [get_ports x1012] -clock x1012 
+set_input_transition 5 -min -rise [get_ports x1012] -clock x1012
+set_input_transition 5 -min -fall [get_ports x1012] -clock x1012
+set_input_transition 5 -max -rise [get_ports x1012] -clock x1012
+set_input_transition 5 -max -fall [get_ports x1012] -clock x1012
+set_input_delay 190 -min -rise [get_ports x672] -clock x1012 
+set_input_delay 151 -min -fall [get_ports x672] -clock x1012 
+set_input_delay -130 -max -rise [get_ports x672] -clock x1012 
+set_input_delay -88 -max -fall [get_ports x672] -clock x1012 
+set_input_transition 5 -min -rise [get_ports x672] -clock x1012
+set_input_transition 5 -min -fall [get_ports x672] -clock x1012
+set_input_transition 5 -max -rise [get_ports x672] -clock x1012
+set_input_transition 5 -max -fall [get_ports x672] -clock x1012
+set_input_delay -103 -min -rise [get_ports x800] -clock x1012 
+set_input_delay -25 -min -fall [get_ports x800] -clock x1012 
+set_input_delay 174 -max -rise [get_ports x800] -clock x1012 
+set_input_delay -123 -max -fall [get_ports x800] -clock x1012 
+set_input_transition 5 -min -rise [get_ports x800] -clock x1012
+set_input_transition 5 -min -fall [get_ports x800] -clock x1012
+set_input_transition 5 -max -rise [get_ports x800] -clock x1012
+set_input_transition 5 -max -fall [get_ports x800] -clock x1012
+set_input_delay 219 -min -rise [get_ports x856] -clock x1012 
+set_input_delay 99 -min -fall [get_ports x856] -clock x1012 
+set_input_delay -6 -max -rise [get_ports x856] -clock x1012 
+set_input_delay 28 -max -fall [get_ports x856] -clock x1012 
+set_input_transition 5 -min -rise [get_ports x856] -clock x1012
+set_input_transition 5 -min -fall [get_ports x856] -clock x1012
+set_input_transition 5 -max -rise [get_ports x856] -clock x1012
+set_input_transition 5 -max -fall [get_ports x856] -clock x1012
+set_input_delay -240 -min -rise [get_ports x947] -clock x1012 
+set_input_delay -213 -min -fall [get_ports x947] -clock x1012 
+set_input_delay -37 -max -rise [get_ports x947] -clock x1012 
+set_input_delay -176 -max -fall [get_ports x947] -clock x1012 
+set_input_transition 5 -min -rise [get_ports x947] -clock x1012
+set_input_transition 5 -min -fall [get_ports x947] -clock x1012
+set_input_transition 5 -max -rise [get_ports x947] -clock x1012
+set_input_transition 5 -max -fall [get_ports x947] -clock x1012
+set_input_delay -73 -min -rise [get_ports x956] -clock x1012 
+set_input_delay 34 -min -fall [get_ports x956] -clock x1012 
+set_input_delay 183 -max -rise [get_ports x956] -clock x1012 
+set_input_delay 214 -max -fall [get_ports x956] -clock x1012 
+set_input_transition 5 -min -rise [get_ports x956] -clock x1012
+set_input_transition 5 -min -fall [get_ports x956] -clock x1012
+set_input_transition 5 -max -rise [get_ports x956] -clock x1012
+set_input_transition 5 -max -fall [get_ports x956] -clock x1012
+set_input_delay -233 -min -rise [get_ports x762] -clock x1012 
+set_input_delay 212 -min -fall [get_ports x762] -clock x1012 
+set_input_delay 183 -max -rise [get_ports x762] -clock x1012 
+set_input_delay 182 -max -fall [get_ports x762] -clock x1012 
+set_input_transition 5 -min -rise [get_ports x762] -clock x1012
+set_input_transition 5 -min -fall [get_ports x762] -clock x1012
+set_input_transition 5 -max -rise [get_ports x762] -clock x1012
+set_input_transition 5 -max -fall [get_ports x762] -clock x1012
+set_input_delay 171 -min -rise [get_ports x974] -clock x1012 
+set_input_delay 47 -min -fall [get_ports x974] -clock x1012 
+set_input_delay 76 -max -rise [get_ports x974] -clock x1012 
+set_input_delay -20 -max -fall [get_ports x974] -clock x1012 
+set_input_transition 5 -min -rise [get_ports x974] -clock x1012
+set_input_transition 5 -min -fall [get_ports x974] -clock x1012
+set_input_transition 5 -max -rise [get_ports x974] -clock x1012
+set_input_transition 5 -max -fall [get_ports x974] -clock x1012
+set_output_delay -210 -min -rise [get_ports x332] -clock x1012
+set_output_delay -210 -min -fall [get_ports x332] -clock x1012
+set_output_delay -120 -max -rise [get_ports x332] -clock x1012
+set_output_delay -120 -max -fall [get_ports x332] -clock x1012
+set_load -pin_load 4 [get_ports x332]
+set_output_delay -210 -min -rise [get_ports x179] -clock x1012
+set_output_delay -210 -min -fall [get_ports x179] -clock x1012
+set_output_delay -120 -max -rise [get_ports x179] -clock x1012
+set_output_delay -120 -max -fall [get_ports x179] -clock x1012
+set_load -pin_load 4 [get_ports x179]
+set_output_delay -210 -min -rise [get_ports x423] -clock x1012
+set_output_delay -210 -min -fall [get_ports x423] -clock x1012
+set_output_delay -120 -max -rise [get_ports x423] -clock x1012
+set_output_delay -120 -max -fall [get_ports x423] -clock x1012
+set_load -pin_load 4 [get_ports x423]
+set_output_delay -210 -min -rise [get_ports x606] -clock x1012
+set_output_delay -210 -min -fall [get_ports x606] -clock x1012
+set_output_delay -120 -max -rise [get_ports x606] -clock x1012
+set_output_delay -120 -max -fall [get_ports x606] -clock x1012
+set_load -pin_load 4 [get_ports x606]
+set_output_delay -210 -min -rise [get_ports x557] -clock x1012
+set_output_delay -210 -min -fall [get_ports x557] -clock x1012
+set_output_delay -120 -max -rise [get_ports x557] -clock x1012
+set_output_delay -120 -max -fall [get_ports x557] -clock x1012
+set_load -pin_load 4 [get_ports x557]
+set_output_delay -210 -min -rise [get_ports x79] -clock x1012
+set_output_delay -210 -min -fall [get_ports x79] -clock x1012
+set_output_delay -120 -max -rise [get_ports x79] -clock x1012
+set_output_delay -120 -max -fall [get_ports x79] -clock x1012
+set_load -pin_load 4 [get_ports x79]
+set_output_delay -210 -min -rise [get_ports x285] -clock x1012
+set_output_delay -210 -min -fall [get_ports x285] -clock x1012
+set_output_delay -120 -max -rise [get_ports x285] -clock x1012
+set_output_delay -120 -max -fall [get_ports x285] -clock x1012
+set_load -pin_load 4 [get_ports x285]
+set_output_delay -210 -min -rise [get_ports x633] -clock x1012
+set_output_delay -210 -min -fall [get_ports x633] -clock x1012
+set_output_delay -120 -max -rise [get_ports x633] -clock x1012
+set_output_delay -120 -max -fall [get_ports x633] -clock x1012
+set_load -pin_load 4 [get_ports x633]
+set_output_delay -210 -min -rise [get_ports x0] -clock x1012
+set_output_delay -210 -min -fall [get_ports x0] -clock x1012
+set_output_delay -120 -max -rise [get_ports x0] -clock x1012
+set_output_delay -120 -max -fall [get_ports x0] -clock x1012
+set_load -pin_load 4 [get_ports x0]
+set_output_delay -210 -min -rise [get_ports x160] -clock x1012
+set_output_delay -210 -min -fall [get_ports x160] -clock x1012
+set_output_delay -120 -max -rise [get_ports x160] -clock x1012
+set_output_delay -120 -max -fall [get_ports x160] -clock x1012
+set_load -pin_load 4 [get_ports x160]
+set_output_delay -210 -min -rise [get_ports x142] -clock x1012
+set_output_delay -210 -min -fall [get_ports x142] -clock x1012
+set_output_delay -120 -max -rise [get_ports x142] -clock x1012
+set_output_delay -120 -max -fall [get_ports x142] -clock x1012
+set_load -pin_load 4 [get_ports x142]
+set_output_delay -210 -min -rise [get_ports x475] -clock x1012
+set_output_delay -210 -min -fall [get_ports x475] -clock x1012
+set_output_delay -120 -max -rise [get_ports x475] -clock x1012
+set_output_delay -120 -max -fall [get_ports x475] -clock x1012
+set_load -pin_load 4 [get_ports x475]
+set_output_delay -210 -min -rise [get_ports x40] -clock x1012
+set_output_delay -210 -min -fall [get_ports x40] -clock x1012
+set_output_delay -120 -max -rise [get_ports x40] -clock x1012
+set_output_delay -120 -max -fall [get_ports x40] -clock x1012
+set_load -pin_load 4 [get_ports x40]
+set_output_delay -210 -min -rise [get_ports x307] -clock x1012
+set_output_delay -210 -min -fall [get_ports x307] -clock x1012
+set_output_delay -120 -max -rise [get_ports x307] -clock x1012
+set_output_delay -120 -max -fall [get_ports x307] -clock x1012
+set_load -pin_load 4 [get_ports x307]
+set_output_delay -210 -min -rise [get_ports x256] -clock x1012
+set_output_delay -210 -min -fall [get_ports x256] -clock x1012
+set_output_delay -120 -max -rise [get_ports x256] -clock x1012
+set_output_delay -120 -max -fall [get_ports x256] -clock x1012
+set_load -pin_load 4 [get_ports x256]
+set_output_delay -210 -min -rise [get_ports x450] -clock x1012
+set_output_delay -210 -min -fall [get_ports x450] -clock x1012
+set_output_delay -120 -max -rise [get_ports x450] -clock x1012
+set_output_delay -120 -max -fall [get_ports x450] -clock x1012
+set_load -pin_load 4 [get_ports x450]
+set_output_delay -210 -min -rise [get_ports x593] -clock x1012
+set_output_delay -210 -min -fall [get_ports x593] -clock x1012
+set_output_delay -120 -max -rise [get_ports x593] -clock x1012
+set_output_delay -120 -max -fall [get_ports x593] -clock x1012
+set_load -pin_load 4 [get_ports x593]
+set_output_delay -210 -min -rise [get_ports x409] -clock x1012
+set_output_delay -210 -min -fall [get_ports x409] -clock x1012
+set_output_delay -120 -max -rise [get_ports x409] -clock x1012
+set_output_delay -120 -max -fall [get_ports x409] -clock x1012
+set_load -pin_load 4 [get_ports x409]
+set_output_delay -210 -min -rise [get_ports x90] -clock x1012
+set_output_delay -210 -min -fall [get_ports x90] -clock x1012
+set_output_delay -120 -max -rise [get_ports x90] -clock x1012
+set_output_delay -120 -max -fall [get_ports x90] -clock x1012
+set_load -pin_load 4 [get_ports x90]
+set_output_delay -210 -min -rise [get_ports x204] -clock x1012
+set_output_delay -210 -min -fall [get_ports x204] -clock x1012
+set_output_delay -120 -max -rise [get_ports x204] -clock x1012
+set_output_delay -120 -max -fall [get_ports x204] -clock x1012
+set_load -pin_load 4 [get_ports x204]
+set_output_delay -210 -min -rise [get_ports x639] -clock x1012
+set_output_delay -210 -min -fall [get_ports x639] -clock x1012
+set_output_delay -120 -max -rise [get_ports x639] -clock x1012
+set_output_delay -120 -max -fall [get_ports x639] -clock x1012
+set_load -pin_load 4 [get_ports x639]
+set_output_delay -210 -min -rise [get_ports x350] -clock x1012
+set_output_delay -210 -min -fall [get_ports x350] -clock x1012
+set_output_delay -120 -max -rise [get_ports x350] -clock x1012
+set_output_delay -120 -max -fall [get_ports x350] -clock x1012
+set_load -pin_load 4 [get_ports x350]
+set_output_delay -210 -min -rise [get_ports x626] -clock x1012
+set_output_delay -210 -min -fall [get_ports x626] -clock x1012
+set_output_delay -120 -max -rise [get_ports x626] -clock x1012
+set_output_delay -120 -max -fall [get_ports x626] -clock x1012
+set_load -pin_load 4 [get_ports x626]
+set_output_delay -210 -min -rise [get_ports x128] -clock x1012
+set_output_delay -210 -min -fall [get_ports x128] -clock x1012
+set_output_delay -120 -max -rise [get_ports x128] -clock x1012
+set_output_delay -120 -max -fall [get_ports x128] -clock x1012
+set_load -pin_load 4 [get_ports x128]
+set_output_delay -210 -min -rise [get_ports x388] -clock x1012
+set_output_delay -210 -min -fall [get_ports x388] -clock x1012
+set_output_delay -120 -max -rise [get_ports x388] -clock x1012
+set_output_delay -120 -max -fall [get_ports x388] -clock x1012
+set_load -pin_load 4 [get_ports x388]
+set_output_delay -210 -min -rise [get_ports x23] -clock x1012
+set_output_delay -210 -min -fall [get_ports x23] -clock x1012
+set_output_delay -120 -max -rise [get_ports x23] -clock x1012
+set_output_delay -120 -max -fall [get_ports x23] -clock x1012
+set_load -pin_load 4 [get_ports x23]
+set_output_delay -210 -min -rise [get_ports x437] -clock x1012
+set_output_delay -210 -min -fall [get_ports x437] -clock x1012
+set_output_delay -120 -max -rise [get_ports x437] -clock x1012
+set_output_delay -120 -max -fall [get_ports x437] -clock x1012
+set_load -pin_load 4 [get_ports x437]
+set_output_delay -210 -min -rise [get_ports x368] -clock x1012
+set_output_delay -210 -min -fall [get_ports x368] -clock x1012
+set_output_delay -120 -max -rise [get_ports x368] -clock x1012
+set_output_delay -120 -max -fall [get_ports x368] -clock x1012
+set_load -pin_load 4 [get_ports x368]
+set_output_delay -210 -min -rise [get_ports x232] -clock x1012
+set_output_delay -210 -min -fall [get_ports x232] -clock x1012
+set_output_delay -120 -max -rise [get_ports x232] -clock x1012
+set_output_delay -120 -max -fall [get_ports x232] -clock x1012
+set_load -pin_load 4 [get_ports x232]
+set_output_delay -210 -min -rise [get_ports x615] -clock x1012
+set_output_delay -210 -min -fall [get_ports x615] -clock x1012
+set_output_delay -120 -max -rise [get_ports x615] -clock x1012
+set_output_delay -120 -max -fall [get_ports x615] -clock x1012
+set_load -pin_load 4 [get_ports x615]
+set_output_delay -210 -min -rise [get_ports x105] -clock x1012
+set_output_delay -210 -min -fall [get_ports x105] -clock x1012
+set_output_delay -120 -max -rise [get_ports x105] -clock x1012
+set_output_delay -120 -max -fall [get_ports x105] -clock x1012
+set_load -pin_load 4 [get_ports x105]
+set_output_delay -210 -min -rise [get_ports x60] -clock x1012
+set_output_delay -210 -min -fall [get_ports x60] -clock x1012
+set_output_delay -120 -max -rise [get_ports x60] -clock x1012
+set_output_delay -120 -max -fall [get_ports x60] -clock x1012
+set_load -pin_load 4 [get_ports x60]
